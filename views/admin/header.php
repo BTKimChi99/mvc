@@ -53,13 +53,13 @@
           </a>
           <ul class="nav nav-treeview">
             <li class="nav-item">
-              <a href="http://localhost:8080/mvc_oop/index.php?controllers=admin&action=add" class="nav-link">
+              <a href="http://localhost:8080/demo1/index.php?controllers=admin&action=add" class="nav-link">
                 <i class="far fa-circle nav-icon"></i>
                 <p>Create new user</p>
               </a>
             </li>
             <li class="nav-item">
-              <a href="http://localhost:8080/mvc_oop/index.php?controllers=admin&action=list" class="nav-link">
+              <a href="http://localhost:8080/demo1/index.php?controllers=admin&action=list" class="nav-link">
                 <i class="far fa-circle nav-icon"></i>
                 <p>List all users</p>
               </a>

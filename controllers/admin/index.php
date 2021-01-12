@@ -49,7 +49,7 @@
                     $role = $_POST['role'];
                     //Truyền dữ liệu lấy từ view sang model
                     if($db->updateData($id, $firstname, $lastname, $username, $email, $password, $phone, $birthday, $avatar, $role)){
-                        echo '<script language="javascript">alert("You have successfully updated!"); window.location="http://localhost:8080/mvc_oop/index.php?controllers=admin&action=list";</script>';
+                        echo '<script language="javascript">alert("You have successfully updated!"); window.location="http://localhost:8080/demo1/index.php?controllers=admin&action=list";</script>';
                     }
                 }
             }
@@ -62,7 +62,7 @@
                 $tblTable = "users";
 
                 if($db->deleteData($id, $tblTable)){
-                    echo '<script language="javascript">alert("You have successfully deleted!"); window.location="http://localhost:8080/mvc_oop/index.php?controllers=admin&action=list";</script>'; 
+                    echo '<script language="javascript">alert("You have successfully deleted!"); window.location="http://localhost:8080/demo1/index.php?controllers=admin&action=list";</script>'; 
                 }
             }
             break;

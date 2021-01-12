@@ -36,8 +36,8 @@
             <td><?php echo $value['birthday']; ?></td>
             <td><img src="<?php echo $value['avatar']; ?>" alt=""></td>
             <td>
-                <a href="http://localhost:8080/mvc_oop/index.php?controllers=admin&action=edit&id=<?php echo $value['id']; ?>">Edit</a> |
-                <a onclick = "return confirm('Are you sure you want to delete it?')" href="http://localhost:8080/mvc_oop/index.php?controllers=admin&action=delete&id=<?php echo $value['id']; ?>">Delete</a>
+                <a href="http://localhost:8080/demo1/index.php?controllers=admin&action=edit&id=<?php echo $value['id']; ?>">Edit</a> |
+                <a onclick = "return confirm('Are you sure you want to delete it?')" href="http://localhost:8080/demo1/index.php?controllers=admin&action=delete&id=<?php echo $value['id']; ?>">Delete</a>
             </td>
         </tr>
         <?php
