@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.content{
+    width: 400px;
+    margin: 0 auto;
+}
+.register{
+    width: 90%;
+    border: 1px solid #dddddd;
+    margin: 0 auto;
+}
+.register h3{
+    background:#343a40ed;
+    padding:  5px;
+    color: #d6d7d8;
+    text-align: center;
+    font-size: 1.25rem;
+}
+.register form table tr td{
+    padding: 5px;
+}
+.register form table tr td input{
+    padding:  3px 5px;
+    width: 100%;
+    outline: none;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+input[type="submit"] {
+    width: 50% !important;
+}
+#login{
+    margin-top: 150px;
+    width: 100%;
+}
+table.list {
+    margin-left: 20vw;
+}
+table.list td {
+    width: 106px;
+    text-align: center;
+    height: 50px;
+    
+}
+.style_tr td{
+    background: #343a40ed;
+    color: #d6d7d8;
+}
+input.error {
+    border: 1px red solid;
+}
+label.error {
+    color: red;
+}
+img {
+    width: 40px;
+    height: 40px;
+}
